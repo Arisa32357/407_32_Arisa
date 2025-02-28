@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตากล้องรักสยาม.คอม</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- สร้างเมนู -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">ตากล้องรักสยาม</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าเเรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">บริการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">ผลงานของเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่องาน</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- การส้ราง slider -->
+     <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ภูเขาไฟพูจิ</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis sequi assumenda debitis odio quas quae minima distinctio similique, deserunt, officiis perferendis? Modi saepe itaque nihil error officia quibusdam nobis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 ">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="display-3">วัด</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis sequi assumenda debitis odio quas quae minima distinctio similique, deserunt, officiis perferendis? Modi saepe itaque nihil error officia quibusdam nobis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="display-3">ทะเล</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis sequi assumenda debitis odio quas quae minima distinctio similique, deserunt, officiis perferendis? Modi saepe itaque nihil error officia quibusdam nobis.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev "data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next "data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+     </section>
+
+     <!-- Service Sectio -->
+     <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-canter mb-4">
+                    <i class="fa-solid fa-truck-fast fa-3x mb-2"></i>
+                    <h3>ไกด์นำเที่ยว</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cumque voluptate sunt placeat nobis quaerat dolor distinctio iusto, quam ratione!</p>
+                </div>
+                <div class="col-md-4 text-canter mb-4">
+                    <i class="fa-solid fa-image fa-3x mb-2"></i>
+                    <h3>รับถ่ายรูปภาพ</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cumque voluptate sunt placeat nobis quaerat dolor distinctio iusto, quam ratione!</p>
+                </div>
+                <div class="col-md-4 text-canter mb-4">
+                    <i class="fa-solid fa-wand-magic-sparkles fa-3x mb-2"></i>
+                    <h3>ตกเเต่งรูปภาพ</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cumque voluptate sunt placeat nobis quaerat dolor distinctio iusto, quam ratione!</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- about -->
+      <section id="about">
+        <div class="dark-overlay">
+            <div class="col">
+                <div class="container pt-5">
+                    <h1>เกี่ยวกับเรา</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nam ex accusantium veritatis tempora numquam consequuntur? Asperiores labore, a corporis dolores sed id quas quam minima excepturi! Itaque, ipsa maiores.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- gallary -->
+       <section id="gallary" class="p-5">
+            <div class="container">
+                <h1 class="text-canter">ผลงานของเรา</h1>
+                <p class="text-canter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio obcaecati sequi autem distinctio amet ad modi ratione sit reprehenderit a velit cumque architecto expedita vel nihil sed vitae, laboriosam doloribus!</p>
+                <!-- Image -->
+            <div class="row wb-4">
+                <div class="col mb-4">
+                    <img src="https://content.fun-japan.jp/renewal-prod/cms/articles/content/Mpf/Articles/2016/12/08/20161208-15-03-Instagram.jpg" class="img-fluid">
+                </div>
+                <div class="col mb-4">
+                    <img src="https://chillchilljapan.com/wp-content/uploads/2020/10/pixta_49967376_M.jpg" class="img-fluid">
+                </div>
+                <div class="col mb-4">
+                    <img src="https://img.kapook.com/u/2019/sutasinee/10/r5.jpg" class="img-fluid">
+                </div>
+                    
+       </section>
+       <!-- Footer -->
+        <footer class="text-center p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Copyright &copy; LongRuksiam official 2568</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+         <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="moda-header">
+                        <h5 class="modal-title">ติดต่องาน</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>อีเมล</label>
+                                <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>หัวข้อ</label>
+                                <input type="text" placeholder="เสนอหัวข้องานของคุณ" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>รายละเอียด</label>
+                                <input type="text" placeholder="เสนอหัวข้องานของคุณ" class="form-control">
+                                <textarea id="" cols="10" rows="10" class="form-contnro"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-sencondary" data-bs-dismiss="modal">ยกเลิก</button>
+                        <button class="btn btn-success">ส่งข้อมูล</button>
+                    </div>
+                </div>                
+            </div>
+         </div>
+</body>
+</html>
